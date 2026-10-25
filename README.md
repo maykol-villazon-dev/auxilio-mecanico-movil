@@ -32,3 +32,25 @@ lib/
 ├── services/     # Clientes HTTP y conexión con APIs REST
 ├── theme/        # Temas personalizados (Dark/Light Mode)
 └── main.dart     # Punto de entrada de la aplicación
+
+🛠️ Tecnologías Utilizadas
+Framework: Flutter (SDK 3.x)
+Lenguaje: Dart
+Gestión de Estado: provider
+Estilizado & Temas: Material Design 3 con paleta personalizada
+🚀 Instalación y Ejecución Local
+Clonar el repositorio:
+
+bash
+git clone https://github.com/maykol-villazon-dev/auxilio-mecanico-movil.git
+cd auxilio-mecanico-movil
+Instalar dependencias de Flutter:
+
+bash
+flutter pub get
+Ejecutar en emulador o dispositivo físico:
+
+bash
+flutter run
+👨‍💻 Autor
+Desarrollado con dedicación por Maykol Villazón.
