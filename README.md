@@ -1,16 +1,34 @@
-# auxilio_mecanico
+# 🚗 Auxilio Mecánico Móvil
 
-A new Flutter project.
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/Plataformas-Android%20%7C%20iOS-brightgreen?style=for-the-badge" alt="Plataformas" />
+  <img src="https://img.shields.io/badge/Estado-En_Desarrollo-orange?style=for-the-badge" alt="Estado" />
+</p>
 
-## Getting Started
+Aplicación móvil multiplataforma diseñada para conectar a conductores en situaciones de emergencia vial con mecánicos y servicios de grúa disponibles en su zona en tiempo real.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+### ✨ Características Principales
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* 📍 **Solicitud de Auxilio en Ruta:** Petición rápida de servicios de batería, pinchaduras, remolque o mecánica ligera.
+* ⚡ **Gestión de Estado Reactiva:** Implementado con el patrón **Provider** para una respuesta fluida de la interfaz de usuario.
+* 🎨 **Diseño Moderno & UI/UX Adaptativa:** Soporte para modo oscuro/claro y componentes optimizados para pantallas táctiles.
+* 🌐 **Arquitectura Modular Limpia:** Separación estricta de responsabilidades en `models`, `providers`, `services`, `screens` y `theme`.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+### 📂 Estructura del Código
+
+```text
+lib/
+├── constants/    # Constantes globales, colores y estilos
+├── models/       # Modelos de datos y serialización JSON
+├── providers/    # Lógica de estado reactivo (Provider)
+├── routes/       # Enrutamiento y navegación declarativa
+├── screens/      # Vistas y pantallas principales de la aplicación
+├── services/     # Clientes HTTP y conexión con APIs REST
+├── theme/        # Temas personalizados (Dark/Light Mode)
+└── main.dart     # Punto de entrada de la aplicación
