@@ -33,12 +33,13 @@ lib/
 ├── theme/        # Temas personalizados (Dark/Light Mode)
 └── main.dart     # Punto de entrada de la aplicación
 
-🛠️ Tecnologías Utilizadas
+### 🛠️ Tecnologías Utilizadas
 Framework: Flutter (SDK 3.x)
 Lenguaje: Dart
 Gestión de Estado: provider
 Estilizado & Temas: Material Design 3 con paleta personalizada
-🚀 Instalación y Ejecución Local
+
+### 🚀 Instalación y Ejecución Local
 Clonar el repositorio:
 
 bash
@@ -52,5 +53,6 @@ Ejecutar en emulador o dispositivo físico:
 
 bash
 flutter run
-👨‍💻 Autor
+
+### 👨‍💻 Autor
 Desarrollado con dedicación por Maykol Villazón.
